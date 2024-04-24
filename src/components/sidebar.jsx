@@ -26,8 +26,8 @@ const Sidebar = (props) => {
               <h1 className="text-3xl font-medium font-mono">{note.name}</h1>
             </div>
           ))}
-          <div className=" sticky bottom-4 w-[98vw] md:w-[27vw] flex justify-end">
-            <button className="bg-[#16008B] text-white text-4xl py-4 px-6 rounded-full" onClick={props.modal}>
+          <div className="fixed bottom-4 right-4 md:left-40 lg:left-64 xl:left-80 left flex items-center">
+            <button className="bg-[#16008B] text-white text-4xl py-3 px-4 rounded-full" onClick={props.modal}>
               <FontAwesomeIcon icon={faPlus} />
             </button>
           </div>
