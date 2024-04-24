@@ -139,7 +139,7 @@ const Right = () => {
                 <div className=" w-[0vw] bg-[#DAE5F5] md:w-[71vw]" id="right">
                     {selected == "" ?
                         <><div className="default_main flex-col justify-center items-center h-[100vh] hidden md:flex">
-                            <img src="../../image/main_bg.png" alt="main bg" />
+                            <img src="src\components\main_bg.png" alt="main bg" />
                             <h1 className=" text-3xl font-bold font-mono ">Pocket Notes</h1>
                             <p className=" font-medium font-mono mt-2" >Send and receive messages without keeping your phone online.</p>
                             <p className="font-mono font-medium">Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
