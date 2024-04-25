@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faArrowLeft, faLock } from "@fortawesome/free-solid-svg-icons";
 import MainPNG from "./main_bg.png"
 
 const Right = () => {
@@ -144,6 +144,9 @@ const Right = () => {
                             <h1 className=" text-3xl font-bold font-mono ">Pocket Notes</h1>
                             <p className=" font-medium font-mono mt-2" >Send and receive messages without keeping your phone online.</p>
                             <p className="font-mono font-medium">Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
+                            <div className="fixed bottom-4 text-black font-mono font-medium">
+                            <FontAwesomeIcon icon={faLock} /> end-to-end encrypted
+                            </div>
                         </div></>
                         : <>  <div className="notes_main">
                             <div className="overflow-hidden">
